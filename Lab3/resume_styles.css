@@ -1,0 +1,106 @@
+/* Overall page styling */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #eef2f6;
+            color: #101c22;
+            line-height: 1.6;
+            margin: 0;
+            padding: 30px 15px;
+        }
+
+        .resume {
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #ffffff;
+            border-top: 8px solid #e47215;
+            box-shadow: 0 3px 14px rgba(0, 0, 0, 0.10);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid #d9e2e8;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+
+        h1 {
+            color: #101c22; /* First font color */
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            color: #176b87;
+            border-bottom: 1px solid #d9e2e8;
+            padding-bottom: 5px;
+            margin-top: 28px;
+        }
+
+        h3 {
+            color: #37474f;
+            margin-bottom: 2px;
+        }
+
+        h4 {
+            color: #607d8b; /* Second font color */
+            margin-top: 3px;
+            margin-bottom: 8px;
+            font-weight: normal;
+        }
+
+        p {
+            margin-top: 6px;
+        }
+
+        .contact a {
+            color: #176b87;
+            text-decoration: none;
+            margin: 0 7px;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .date {
+            color: #607d8b;
+            font-style: italic;
+        }
+
+        ul {
+            padding-left: 22px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .skills-list {
+            columns: 2;
+        }
+
+        footer {
+            text-align: center;
+            color: #607d8b;
+            border-top: 1px solid #d9e2e8;
+            margin-top: 30px;
+            padding-top: 15px;
+            font-size: 0.9em;
+        }
+
+        /* Adjust the layout for phones and narrow screens */
+        @media (max-width: 600px) {
+            .resume {
+                padding: 22px;
+            }
+
+            .skills-list {
+                columns: 1;
+            }
+
+            .contact a {
+                display: inline-block;
+                margin: 3px 5px;
+            }
+        }
